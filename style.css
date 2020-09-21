@@ -1,4 +1,45 @@
-.navbar{
-    height: 100px;
-    display: flex;
+
+
+.index-intro{
+    width: 100%;
+    background-color: #f3f3f3;
+    background-image: url(codebw.jpg);
+    background-repeat: no
 }
+.index-intro .jumbotron {
+    padding: 100px 69px;
+    margin: 0px;
+    justify-content: center;
+    text-align: center;
+    background: #000000;
+    background: -moz-linear-gradient(left, #000000 0%, #95A49C 51%, #000000 100%);
+    background: -webkit-linear-gradient(left, #000000 0%, #95A49C 51%, #000000 100%);
+    background: linear-gradient(to right, #000000 0%, #95A49C 51%, #000000 100%);
+   
+}
+.jumbotron h1 {
+    font-size: 50px;
+
+}
+.AboutMe{
+    margin: 0px;
+    background-color: rgb(228, 225, 225);
+    border-radius: 30px
+
+}
+.card{
+   text-align: center;
+}
+.bordered{
+    border: 1px solid #000000
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    border-radius: 20px 5px 20px;
+    background-color: rgb(228, 225, 225);
+  }
+  .para{
+    box-shadow: 1px 1px #acacac
+
+  }
